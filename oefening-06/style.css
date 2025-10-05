@@ -1,0 +1,52 @@
+html,
+body{
+    height: 100%;
+}
+
+.container{
+    display: inline-grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 350px;
+    position: relative;
+    top: 30%;
+    left: 40%;
+    height: 350px;
+
+}
+
+#laag1,
+#laag2,
+#laag3 {
+    font-family: arial;
+    font-size: larger;
+    color: white;
+    padding: 10px;
+    display: inline-grid;
+    grid-template-columns: 200px;
+    grid-template-rows: 250px;
+}
+
+#laag1{
+    
+    background-color: #ffb705;
+    z-index: 2;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#laag2{
+    background-color: #229ebc;
+    z-index: 1;
+    position: absolute;
+    top: 45px;
+    left: 45px;
+}
+
+#laag3{
+    background-color: #023047;
+    z-index: 0;
+    position: absolute;
+    top: 90px;
+    left: 90px;
+}
